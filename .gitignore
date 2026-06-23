@@ -1,0 +1,24 @@
+# Chrome Extension build artifacts
+*.crx
+*.pem
+*.zip
+
+# Environment / secrets
+.env
+.env.local
+config.local.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if you ever use npm tools)
+node_modules/
+package-lock.json
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log

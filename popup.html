@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockPulse</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="logo">📈StockPulse</h1>
+        <p class="subtitle">Live Stock market tracker</p>
+    </div>
+    
+    <div class="search-wrap">
+        <input type="text" id="searchInput" placeholder="e.g Reliance.ns or AAPL">
+        <button id="searchBtn">Search</button>
+    </div>
+    <p class="hint">🇮🇳 Indian stocks: add .NS &nbsp;|&nbsp; 🇺🇸 US stocks: just the symbol</p>
+
+    <div id="searchResult"></div>
+    <h2 class="section-title">⭐ Favourites</h2>
+    <div id="favouritesList"></div>
+
+    <div id="chartSection" class="hidden">
+        <div class="chart-header">
+            <span id="chartTitle">Price chart </span>
+            <button id="closeChart">x</button>
+        </div>
+        <canvas id="priceChart" width="340" height="160"> </canvas>
+    </div>
+     <script src="chart.min.js"></script>
+    <script src="popup.js"></script>
+    
+
+
+    
+</body>
+</html>

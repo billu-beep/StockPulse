@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
     "name": "StockPulse",
-    "version" :"1.0.0",
+    "version" :"1.0.1",
     "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-    "description" :"tracks live Indian and US stock prices efficiently.",
+    "description": "Tracks live Indian and US stock prices. Favourites refresh automatically every 15 minutes in the background.",
     "action":{
         "default_popup":"popup.html",
         "default_icon":{
